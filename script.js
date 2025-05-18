@@ -1,33 +1,39 @@
-function toggleClasse(element) {
-    const cards = document.querySelectorAll('.card');
+// Seleciona todos os cards
+const cards = document.querySelectorAll('.card-pessoa');
 
-    cards.forEach(card => {
-        if (card !== element) {
-            card.classList.remove('card-pessoa-select');
-            card.classList.add('card-pessoa');
+// Elementos que serão atualizados
+const imagemPrincipal = document.querySelector('.container-fig img');
+const descricao = document.querySelector('.descr');
 
-            const conteudo = card.querySelector('.conteudo');
-            if (conteudo) {
-                conteudo.classList.remove('visivel');
-                conteudo.classList.add('escondido');
-            }
-        }
-    });
+// Dados dos personagens
+const dados = {
+  card1: {
+    imagem: 'img/personagem1.jpg',
+    texto: 'Descrição do personagem 1.'
+  },
+  card2: {
+    imagem: 'img/personagem2.jpg',
+    texto: 'Descrição do personagem 2.'
+  },
+  card3: {
+    imagem: 'img/personagem3.jpg',
+    texto: 'Descrição do personagem 3.'
+  }
+  // Adicione mais se necessário
+};
 
+// Adiciona evento de clique em cada card
+cards.forEach(card => {
+  card.addEventListener('click', () => {
+    // Remove a classe de todos os cards
+    cards.forEach(c => c.classList.remove('card-pessoa-select'));
 
-    element.classList.toggle('card-pessoa');
-    element.classList.toggle('card-pessoa-select');
+    // Adiciona a classe somente ao card clicado
+    card.classList.add('card-pessoa-select');
 
-    const conteudoInterno = element.querySelector('.conteudo');
-    if (conteudoInterno) {
-        const isVisivel = conteudoInterno.classList.contains('visivel');
-
-        if (isVisivel) {
-            conteudoInterno.classList.remove('visivel');
-            conteudoInterno.classList.add('escondido');
-        } else {
-            conteudoInterno.classList.remove('escondido');
-            conteudoInterno.classList.add('visivel');
-        }
-    }
-}
+    // Atualiza imagem e descrição com base no id
+    const id = card.id;
+    imagemPrincipal.src = dados[id].imagem;
+    descricao.textContent = dados[id].texto;
+  });
+});
