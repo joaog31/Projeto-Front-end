@@ -2,11 +2,12 @@ body {
     padding: 0;
     margin: 0;
     color: goldenrod;
-    background-color: rgb(128, 125, 150);
-    font-family: Share Tech;
+    background: linear-gradient(135deg, #5e00c0, #00b4d8);
+    font-family: 'Share Tech', sans-serif;
     text-align: center;
     font-weight: 900;
 }
+
 
 body h2 {
     text-shadow: 3px 3px black;
