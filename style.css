@@ -52,17 +52,23 @@ header {
         opacity 3.5s ease,
         border-radius 0.7s ease;
 }
-
 .card-pessoa {
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-  padding: 20px;
-  cursor: pointer;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+    color: black;
+    align-items: center;
+    min-height: 30px;
+    width: 50%;
+    min-width: 300px;
+    height: 2em;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 30px;
+    border: 5px solid goldenrod;
+    border-radius: 2.2em;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: darkgoldenrod;
+    box-shadow: 0 5px 5px 1px rgb(0, 0, 0, 0.5);
 }
 
 .card-pessoa-select {
