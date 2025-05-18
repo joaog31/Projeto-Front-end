@@ -88,8 +88,7 @@ header {
     font-weight: 600;
     font-size: 1.4rem;
     padding: 15px;
-    background-color: rgb(245, 245, 245);
-    box-shadow: 0 2px 2px 1px #1E3A8A;
+    background: linear-gradient(#5e00c0, #00b4d8); 
 }
 
 .card-pessoa:hover {
