@@ -136,8 +136,8 @@ header {
 }
 
 .container-info {
-    height: 100%;
-    margin-left: 20px;
-    width: 100%;
-    align-items: center;
+   .container-info {
+    max-width: 400px;
+    text-align: left;
+}
 }
