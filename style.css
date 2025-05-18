@@ -120,11 +120,13 @@ header {
 }
 
 .container-fig img {
-    width: auto;
-    max-width: 500px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* deixa redondo */
+    object-fit: cover;
     margin: auto;
     display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .container-info {
