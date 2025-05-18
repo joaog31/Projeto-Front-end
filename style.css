@@ -57,27 +57,29 @@ header {
 }
 
 .card-pessoa {
-   .card-pessoa-select {
+    color: black;
+    align-items: center;
+    min-height: 30px;
+    width: 50%;
+    min-width: 300px;
+    height: 2em;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 30px;
+    border: 5px solid goldenrod;
+    border-radius: 2.2em;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: darkgoldenrod;
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card-pessoa-select {
     height: auto;
     width: 90%;
     font-size: 1.4rem;
     padding: 15px;
-}
-
-.card-pessoa-select {
-    height: 400px;
-    width: 95%;
-    color: black;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    padding: 20px;
-    border: 5px solid rgb(104, 63, 112);
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 2rem;
-    background-color: rgba(243, 233, 233, 0.5);
-    box-shadow: 0 2px 2px 1px #1E3A8A;
 }
 
 .card-pessoa:hover {
@@ -108,7 +110,17 @@ header {
 }
 
 .container-fig {
-    width: 1000px;
+    .container-fig img {
+    width: auto;
+    max-width: 400px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    border: 4px solid goldenrod; /* borda visível */
+    border-radius: 0; /* remove redondeza */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* sombra suave */
+}
+
 }
 
 .container-fig img {
