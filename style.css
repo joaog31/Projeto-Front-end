@@ -41,16 +41,13 @@ header {
 }
 
 .card {
-    transition:
-        background-color 1s ease,
-        color 1.5s ease,
-        font-size 0.7s ease,
-        height 0.4s ease,
-        width 0.2s ease,
-        padding 1s ease,
-        margin-left 1s ease,
-        opacity 3.5s ease,
-        border-radius 0.7s ease;
+    width: auto;
+    max-width: 500px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 10px; /* deixa as bordas arredondadas */
+    transition: transform 0.5s ease;
 }
 
 .card-pessoa {
