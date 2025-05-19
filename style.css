@@ -120,7 +120,7 @@ header {
     display: flex; /* Layout em linha */
     align-items: center; /* Alinha verticalmente ao centro */
     justify-content: flex-start; /* Alinha ao início da linha */
-    gap: 4px; /* Espaçamento entre os elementos */
+    gap: 20px; /* Espaçamento entre os elementos */
     flex-wrap: nowrap; /* Não permite quebra de linha */
 }
 
