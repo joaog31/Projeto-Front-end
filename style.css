@@ -139,6 +139,8 @@ header {
 }
 
 .container-info {
-    max-width: 600px; /* Limita a largura do texto */
-    text-align: left; /* Alinha o texto à esquerda */
+    height: 100%;
+    margin-left: 20px;
+    width: 100%;
+    align-items: center;
 }
