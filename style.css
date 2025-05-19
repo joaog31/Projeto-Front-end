@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gagalin');
 body {
     padding: 0; /* Remove o espaçamento interno da página */
     margin: 0; /* Remove as margens da página */
@@ -15,6 +16,8 @@ header h2 {
     color: #FFD700; /* Cor dourada */
     text-shadow: 1px 1px 2px rgb(0,0,0,0.4); /* Sombra no texto para destacar */
     margin-top: 20px; /* Espaço acima do título */
+    font-family: 'Gagalin', sans-serif;
+                                                
 }
 
 header {
