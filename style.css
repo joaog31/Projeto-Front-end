@@ -39,7 +39,6 @@ header {
     width: 80%; /* Largura de 80% do corpo */
     min-width: 1000px; /* Largura mínima fixa */
     margin: auto; /* Centraliza horizontalmente */
-    margin:10px;
     padding: 30px 40px; /* Espaçamento interno */
     border-radius: 6px; /* Bordas arredondadas */
     border-width: 30px 4px 10px 1px; /* Largura das bordas (topo, direita, baixo, esquerda) */
