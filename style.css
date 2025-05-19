@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 body {
     padding: 0; /* Remove o espaçamento interno da página */
     margin: 0; /* Remove as margens da página */
     color: goldenrod; /* Define a cor do texto padrão */
-    background: linear-gradient(135deg, #4b2caa, #23a6d5);/* Fundo em gradiente roxo para azul claro */
-    font-family: 'Share Tech', sans-serif; /* Fonte personalizada */
+    background: linear-gradient(135deg, #5f2c82, #49a09d);/* Fundo em gradiente roxo para azul claro */
+    font-family: 'Poppins', sans-serif; /* Fonte personalizada */
     text-align: center; /* Centraliza o texto */
     font-weight: 900; /* Fonte em negrito pesado */
 }
 
 header h2 {
-    font-size: 3rem; /* Tamanho grande para o título */
+    font-size: 3.5rem; /* Tamanho grande para o título */
     color: #FFD700; /* Cor dourada */
-    text-shadow: 2px 2px 4px #4e0564; /* Sombra no texto para destacar */
+    text-shadow: 1px 1px 2px (0,0,0,0.4); /* Sombra no texto para destacar */
     margin-top: 20px; /* Espaço acima do título */
 }
 
