@@ -125,7 +125,7 @@ header {
 }
 
 .container-fig {
-    width: 240px; /* Largura fixa do container de imagem */
+    width: 300px; /* Largura fixa do container de imagem */
 }
 
 .container-fig img {
