@@ -139,7 +139,7 @@ header {
     height: 300px;
     margin: auto;
     object-fit: cover; /* A imagem cobre o espaço sem distorcer */
-    border: 5px solid rgb(219, 219, 219); /* Borda dourada */
+    border: 5px solid rgb(108, 107, 170); /* Borda dourada */
     border-radius: 6px; /* Bordas retas */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Sombra leve */
     display: block; /* Garante que a imagem se comporte como bloco */
