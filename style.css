@@ -21,7 +21,7 @@ header {
     background-color: rgba(0, 0, 0, 0.3); /* Fundo preto translúcido */
 }
 .logo-header {
-    width: 250px;
+    width: 200px;
     max-width: 90%;
     height: auto;
     margin-top: 10px;
