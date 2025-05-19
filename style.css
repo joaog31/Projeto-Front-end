@@ -45,6 +45,7 @@ header {
 
 .titulo-fechado {
     display: block; /* Força exibição como bloco */
+    text-emphasis-color: dark blue;
 }
 
 .card {
