@@ -92,6 +92,7 @@ header {
     border-radius: 10px; /* Bordas levemente arredondadas */
     font-weight: 600;
     font-size: 1.4rem;
+    margin-bottom: 10px;
     padding: 15px;
     background: linear-gradient(#fdffff); /* Fundo branco com gradiente sutil */
 }
@@ -122,7 +123,7 @@ header {
     align-items: center; /* Alinha verticalmente ao centro */
     justify-content: flex-start; /* Alinha ao início da linha */
     gap: 20px; /* Espaçamento entre os elementos */
-     flex-wrap: wrap; /* Não permite quebra de linha */
+     flex-wrap: "nowrap"; /* Não permite quebra de linha */
 }
 
 .container-fig {
