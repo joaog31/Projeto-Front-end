@@ -75,7 +75,7 @@ header {
     border: 5px solid goldenrod; /* Borda dourada */
     border-radius: 2.2em; /* Bordas bem arredondadas */
     font-weight: 600; /* Negrito médio */
-    font-size: 1.6rem; /* Tamanho do texto */
+    font-size: 1.2rem; /* Tamanho do texto */
     background-color: #FFD700; /* Cor de fundo escura dourada */
     box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.2); /* Sombra */
 }
