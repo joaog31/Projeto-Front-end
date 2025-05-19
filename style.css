@@ -131,7 +131,7 @@ header {
     height: 220px;
     object-fit: cover;
     border: 5px solid goldenrod;
-    border-radius: 0px;
+    border-radius: 50px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     display: block;}
 
