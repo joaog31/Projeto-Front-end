@@ -20,6 +20,18 @@ header {
     font-size: 1.8rem; /* Tamanho da fonte */
     background-color: rgba(0, 0, 0, 0.3); /* Fundo preto translúcido */
 }
+.logo-header {
+    width: 250px; /* ou ajuste conforme desejar */
+    max-width: 90%;
+    height: auto;
+    margin-top: 10px;
+    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.4));
+    transition: transform 0.3s ease;
+}
+
+.logo-header:hover {
+    transform: scale(1.05); /* efeito sutil ao passar o mouse */
+}
 
 .container {
     background-color: rgba(0, 0, 0, 0.1); /* Fundo levemente escuro (substituído abaixo) */
@@ -142,16 +154,4 @@ header {
     margin-left: 20px;
     width: 100%;
     align-items: center;
-}
-.logo-header {
-    width: 250px; /* ou ajuste conforme desejar */
-    max-width: 90%;
-    height: auto;
-    margin-top: 10px;
-    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.4));
-    transition: transform 0.3s ease;
-}
-
-.logo-header:hover {
-    transform: scale(1.05); /* efeito sutil ao passar o mouse */
 }
