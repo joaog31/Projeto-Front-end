@@ -83,7 +83,7 @@ header {
 .card-pessoa-select {
     height: auto;
     width: 85%;
-    color: black;
+    color: rgb(158, 15, 15);
     display: block;
     margin: auto;
     margin-bottom: 10px;
