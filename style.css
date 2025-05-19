@@ -3,7 +3,7 @@ body {
     padding: 0; /* Remove o espaçamento interno da página */
     margin: 0; /* Remove as margens da página */
     color: goldenrod; /* Define a cor do texto padrão */
-    background: linear-gradient(to bottom, #9d6abe,#3b70b6);/* Fundo em gradiente roxo para azul claro */
+    background: linear-gradient(to bottom, #7f4d83, #2f80ed);/* Fundo em gradiente roxo para azul claro */
     font-family: 'Poppins', sans-serif; /* Fonte personalizada */
     text-align: center; /* Centraliza o texto */
     font-weight: 900; /* Fonte em negrito pesado */
@@ -30,7 +30,7 @@ header {
 
 .container {
     background-color: rgba(0, 0, 0, 0.1); /* Fundo levemente escuro (substituído abaixo) */
-    background: linear-gradient(#3b70b6, #9d6abe); /* Fundo em gradiente azul para roxo */
+    background: linear-gradient(#94bbee, #9d6abe); /* Fundo em gradiente azul para roxo */
     text-align: left; /* Alinha texto à esquerda */
     width: 80%; /* Largura de 80% do corpo */
     min-width: 1000px; /* Largura mínima fixa */
