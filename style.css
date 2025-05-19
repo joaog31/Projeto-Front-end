@@ -11,7 +11,7 @@ body {
 header h2 {
     font-size: 3rem; /* Tamanho grande para o título */
     color: #FFD700; /* Cor dourada */
-    text-shadow: 2px 2px 4px #000; /* Sombra no texto para destacar */
+    text-shadow: 2px 2px 4px #4e0564; /* Sombra no texto para destacar */
     margin-top: 20px; /* Espaço acima do título */
 }
 
