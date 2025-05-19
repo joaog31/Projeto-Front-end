@@ -58,7 +58,7 @@ header {
 }
 
 .card-pessoa {
-    color: black; /* Cor do texto */
+    color:#1e2a78; /* Cor do texto */
     align-items: center; /* Centraliza verticalmente conteúdo flex (se usado) */
     min-height: 30px;
     width: 50%;
@@ -72,8 +72,8 @@ header {
     border-radius: 2.2em; /* Bordas bem arredondadas */
     font-weight: 600; /* Negrito médio */
     font-size: 1.2rem; /* Tamanho do texto */
-    background-color: darkgoldenrod; /* Cor de fundo escura dourada */
-    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.5); /* Sombra */
+    background-color: #FFD700; /* Cor de fundo escura dourada */
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
 .card-pessoa-select {
