@@ -14,7 +14,7 @@ body {
                                                 
 header {
     margin: 0;
-    margin-bottom: 20px; /* Espaço abaixo do cabeçalho */
+    margin-bottom: 10px; /* Espaço abaixo do cabeçalho */
     padding: 10px; /* Espaçamento interno */
     font-weight: 900; /* Texto em negrito */
     font-size: 1.8rem; /* Tamanho da fonte */
